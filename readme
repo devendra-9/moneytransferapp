@@ -1,1 +1,4 @@
-
+This is a app similar to that of paytm or paypl where we can transfer the money. The money will be deducted from the sender user and get credited to the receiver person 
+This is just a prototype of how the paytm actually works. 
+The project is created using REACT, mongodb, nodejs and express. 
+THe restAPI is being used here. 
