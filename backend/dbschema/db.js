@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 
-const conurl = 'mongodb+srv://devendrakandpal07:admin123@cluster0.x3zl6sc.mongodb.net/paytm'
+// Enter the connecting string of the mongodb in the conurl variable.
+
+const conurl = ''
 const result = mongoose.connect(conurl)
 if(result)
 {
