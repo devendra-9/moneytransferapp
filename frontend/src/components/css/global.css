@@ -1,0 +1,124 @@
+.formheading
+{
+    /* background-color: aqua; */
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform:capitalize;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.emailfield , .passwordenter
+{
+    /* margin-bottom: 10px; */
+    width: 95%;
+    /* background-color:green; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* gap:5px; */
+}
+.emailfield h3, .passwordenter h3
+{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.emailfield input
+{
+    width: 95%;
+    height: 20px;
+    padding: 5px;
+    /* padding-left: 20px; */
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.emailfield input:hover, .passwordenter input:hover
+{
+    border: 1px solid blue;
+}
+.showpass
+{
+    /* margin-bottom: 10px; */
+    width: 100%;
+    /* background-color:green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showpass input
+{
+    width: 90%;
+    height: 20px;
+    padding: 5px;
+    /* padding-left: 20px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.showpass button
+{
+    width:10%;
+    height: 32px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 700;
+}
+.showpass button:hover
+{
+    background-color: rgb(135, 235, 135);
+}
+.sumitbtn
+{
+    width: 95%;
+    /* background-color: antiquewhite; */
+    padding-top: 0px;
+    padding: 10px;
+    margin: 0px;
+}
+.sumitbtn button
+{
+    width: 100%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(70, 244, 70);
+}
+.sumitbtn button:hover
+{
+    background-color: rgb(109, 238, 109);
+}
+.switch
+{
+    width: 100%;
+    height:20px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.switch p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
